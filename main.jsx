@@ -11,6 +11,6 @@ import { Link } from 'react-router-dom'
 <BrowserRouter>
     <Routes>
         <Route path='/' element={<AllPlayers/>} />
-        <Route path='/players/:id element={<SinglePlayer />} />
+        <Route path='/players/:id' element={<SinglePlayer />} />
     </Routes>
 </BrowserRouter>
